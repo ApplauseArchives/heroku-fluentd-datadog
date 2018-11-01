@@ -1,4 +1,6 @@
 # heroku-fluentd-datadog
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FApplauseOSS%2Fheroku-fluentd-datadog.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FApplauseOSS%2Fheroku-fluentd-datadog?ref=badge_shield)
+
 
 This is a [Heroku](https://heroku.com) application which contains everything
 to run [fluentd](https://fluentd.org) on Heroku to accept logs from [HTTPS
@@ -53,3 +55,7 @@ $ curl "https://YOUR-LOGGING-APP-NAME/debug.YOUR-SOURCE-APP-NAME" -d "60 <13>1 2
 ```
 
 This should show up in the logging application's logs on Heroku.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FApplauseOSS%2Fheroku-fluentd-datadog.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FApplauseOSS%2Fheroku-fluentd-datadog?ref=badge_large)
