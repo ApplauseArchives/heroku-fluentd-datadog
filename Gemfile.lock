@@ -34,9 +34,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fluent-plugin-datadog (~> 0.10.3)
+  fluent-plugin-datadog (~> 0.10)
   fluent-plugin-heroku-http (~> 0.0.1)
-  fluentd (~> 1.2.2)
+  fluentd (~> 1.2)
 
 BUNDLED WITH
-   1.16.1
+   1.17.2
